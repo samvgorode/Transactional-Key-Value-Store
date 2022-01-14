@@ -6,8 +6,6 @@ class Stack<T> {
 
     fun isEmpty() = elements.isEmpty()
 
-    fun size() = elements.size
-
     fun push(item: T) = elements.add(item)
 
     fun pop() : T? {
