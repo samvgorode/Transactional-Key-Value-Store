@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/inputHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/green"
+            android:textSize="24sp"
+            tools:text="> SET foo 123\n\n> SET bar abc\n\n> BEGIN\n\n> SET foo 456\n\n> GET foo\n45"/>
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@null"
+            android:imeOptions="actionGo"
+            android:importantForAccessibility="no"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/green"
+            android:textSize="24sp"
+            tools:text="> BEGIN" />
+
+    </LinearLayout>
+
+</ScrollView>
