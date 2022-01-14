@@ -12,3 +12,8 @@ BEGIN // start a new transaction
 COMMIT // complete the current transaction
 ROLLBACK // revert to state prior to BEGIN call
 ```
+
+UI
+
+![Screenshot](https://user-images.githubusercontent.com/18192354/149503270-22ea5170-5f42-4f4f-8204-d163a1b42111.png)
+
